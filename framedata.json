@@ -1,0 +1,26 @@
+{
+  "Sol Badguy": {
+    "5p": {
+      "damage": "28",
+      "gaurd": "All",
+      "startup": "4",
+      "active": "5",
+      "recovery": "9",
+      "onBlock": "-2",
+      "gatlingOptions": "5P, 2P, 6P, 6S, 6H",
+			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#5P",
+			"img": "https://www.dustloop.com/wiki/images/thumb/7/70/GGST_Sol_5P.png/192px-GGST_Sol_5P.png"
+    },
+		"5k": {
+			"damage": "14,28",
+			"gaurd": "All",
+			"startup": "3",
+			"active": "1,3",
+			"recovery": "25",
+			"onBlock": "-14",
+			"gatlingOptions": "6P, 6S, 6H, 5D, 2D",
+			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#5K",
+			"img": "https://www.dustloop.com/wiki/images/thumb/7/7d/GGST_Sol_5K.png/583px-GGST_Sol_5K.png"
+		}
+  }
+}
