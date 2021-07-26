@@ -13,6 +13,10 @@ const prefix = "!gg";
 const framedata = require("./framedata.json");
 
 function moveToStr(char, move) {
+  if (move) {
+    if (move === "cs" || move === "c.s") move = "cs";
+    if (move === "fs" || move === "f.s") move = "fs";
+  }
   let moveData = framedata[char][move];
   if (!moveData) {
     return new Discord.MessageEmbed()
@@ -22,7 +26,7 @@ function moveToStr(char, move) {
   }
   return new Discord.MessageEmbed()
     .setColor("#0099ff")
-    .setTitle(char + ' '+  move.toUpperCase())
+    .setTitle(char + " " + move.toUpperCase())
     .setURL(moveData.url)
     .setDescription("Frame Data for " + char + " " + move.toUpperCase())
     .setThumbnail(moveData.img)
@@ -32,7 +36,8 @@ function moveToStr(char, move) {
       { name: "Startup", value: moveData.startup, inline: true },
       { name: "Active", value: moveData.active, inline: true },
       { name: "Recovery", value: moveData.recovery, inline: true },
-      { name: "On Block", value: moveData.onBlock, inline: true }
+      { name: "On Block", value: moveData.onBlock, inline: true },
+      { name: "On Hit", value: moveData.onHit, inline: true }
     )
     .addField("Gatling Options", moveData.gatlingOptions, true)
     .setImage(moveData.img)
