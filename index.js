@@ -40,7 +40,6 @@ function moveToStr(char, move) {
         ar.push(wordFmt(s))
       })
       move = ar.join(' ')
-      console.log(move)
     }
 
   }
