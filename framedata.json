@@ -24,7 +24,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#5K",
 			"img": "https://www.dustloop.com/wiki/images/thumb/f/fc/GGST_Sol_5K_Hitbox.png/204px-GGST_Sol_5K_Hitbox.png"
 		},
-		"cs": {
+		"c.S": {
 			"damage": "44",
 			"gaurd": "All",
 			"startup": "7",
@@ -36,7 +36,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#c.S",
 			"img": "https://www.dustloop.com/wiki/images/thumb/8/81/GGST_Sol_cS_Hitbox.png/210px-GGST_Sol_cS_Hitbox.png"
 		},
-		"fs": {
+		"f.S": {
 			"damage": "36",
 			"gaurd": "All",
 			"startup": "10",
@@ -168,7 +168,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#2D",
 			"img": "https://www.dustloop.com/wiki/images/thumb/5/5b/GGST_Sol_2D.png/210px-GGST_Sol_2D.png"
 		},
-		"jp": {
+		"jP": {
 			"damage": "24",
 			"gaurd": "High",
 			"startup": "5",
@@ -180,7 +180,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#j.P",
 			"img": "https://www.dustloop.com/wiki/images/thumb/3/38/GGST_Sol_jP.png/210px-GGST_Sol_jP.png"
 		},
-		"jk": {
+		"jK": {
 			"damage": "30",
 			"gaurd": "High",
 			"startup": "6",
@@ -192,7 +192,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#j.K",
 			"img": "https://www.dustloop.com/wiki/images/thumb/7/7c/GGST_Sol_jK.png/210px-GGST_Sol_jK.png"
 		},
-		"js": {
+		"jS": {
 			"damage": "36",
 			"gaurd": "High",
 			"startup": "10",
@@ -204,7 +204,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#j.S",
 			"img": "https://www.dustloop.com/wiki/images/thumb/f/fe/GGST_Sol_jS.png/195px-GGST_Sol_jS.png"
 		},
-		"jh": {
+		"jH": {
 			"damage": "24x2",
 			"gaurd": "High",
 			"startup": "11",
@@ -216,7 +216,7 @@
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#j.H",
 			"img": "https://www.dustloop.com/wiki/images/thumb/2/22/GGST_Sol_jH.png/210px-GGST_Sol_jH.png"
 		},
-		"jd": {
+		"jD": {
 			"damage": "32",
 			"gaurd": "High",
 			"startup": "10",
@@ -227,6 +227,30 @@
 			"gatlingOptions": "N/A",
 			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#j.D",
 			"img": "https://www.dustloop.com/wiki/images/thumb/6/6b/GGST_Sol_jD.png/208px-GGST_Sol_jD.png"
+		},
+		"Gun Flame": {
+			"damage": "40→35→30→30",
+			"gaurd": "All",
+			"startup": "20",
+			"active": "10,10,10,10",
+			"recovery": "Total 54",
+			"onBlock": "-8",
+			"onHit": "KD(+39)",
+			"gatlingOptions": "N/A",
+			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Gun_Flame",
+			"img": "https://www.dustloop.com/wiki/images/thumb/8/8b/GGST_Sol_236P.png/210px-GGST_Sol_236P.png"
+		},
+		"Bandit Bringer": {
+			"damage": "40→35→30→30",
+			"gaurd": "All",
+			"startup": "20",
+			"active": "10,10,10,10",
+			"recovery": "Total 54",
+			"onBlock": "-8",
+			"onHit": "KD(+39)",
+			"gatlingOptions": "N/A",
+			"url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Gun_Flame",
+			"img": "https://www.dustloop.com/wiki/images/thumb/8/8b/GGST_Sol_236P.png/210px-GGST_Sol_236P.png"
 		}
   }
 }

@@ -14,8 +14,20 @@ const framedata = require("./framedata.json");
 
 function moveToStr(char, move) {
   if (move) {
-    if (move === "cs" || move === "c.s") move = "cs";
-    if (move === "fs" || move === "f.s") move = "fs";
+    if (move === "cs" || move === "c.s") move = "c.S";
+    else if (move === "fs" || move === "f.s") move = "f.S";
+    else if (move === "jp" || move === "j.p") move = "jP";
+    else if (move === "jk" || move === "j.k") move = "jK";
+    else if (move === "js" || move === "j.s") move = "jS";
+    else if (move === "jh" || move === "j.h") move = "jH";
+    else if (move === "jd" || move === "j.d") move = "jD";
+    // Character specials
+    else if (char === "Sol Badguy") {
+      if (move === "236p" || move === "gunflame")
+        move = "Gun Flame";
+    } else {
+      move = move.toUpperCase();
+    }
   }
   let moveData = framedata[char][move];
   if (!moveData) {
@@ -26,9 +38,9 @@ function moveToStr(char, move) {
   }
   return new Discord.MessageEmbed()
     .setColor("#0099ff")
-    .setTitle(char + " " + move.toUpperCase())
+    .setTitle(char + " " + move)
     .setURL(moveData.url)
-    .setDescription("Frame Data for " + char + " " + move.toUpperCase())
+    .setDescription("Frame Data for " + char + " " + move)
     .setThumbnail(moveData.img)
     .addFields(
       { name: "Damage", value: moveData.damage, inline: true },
@@ -54,6 +66,14 @@ client.on("message", (message) => {
       "This is a bot to show frame data in Guilty Gear Strive\nGet frame data by doing !gg [character] [move] ie. !gg sol 5p"
     );
   }
-  if (str[0] === "sol" || str[0] === "sol badguy")
-    message.channel.send(moveToStr("Sol Badguy", str[1]));
+  if (str[0] === "sol" || str[0] === "sol badguy") {
+    if (str[1] === "combos") {
+    } else {
+      let tempStr = ''
+      for(let i = 1; i < str.length; i++) {
+        tempStr += str[i]
+      }
+      message.channel.send(moveToStr("Sol Badguy", tempStr));
+    }
+  }
 });
