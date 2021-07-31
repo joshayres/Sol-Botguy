@@ -41,7 +41,6 @@ function moveToStr(char, move) {
     .setTitle(char + " " + move)
     .setURL(moveData.url)
     .setDescription("Frame Data for " + char + " " + move)
-    .setThumbnail(moveData.img)
     .addFields(
       { name: "Damage", value: moveData.damage, inline: true },
       { name: "Gaurd", value: moveData.gaurd, inline: true },
