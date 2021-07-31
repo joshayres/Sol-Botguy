@@ -12,6 +12,11 @@ client.login(process.env.TOKEN);
 const prefix = "!gg";
 const framedata = require("./framedata.json");
 
+function wordFmt(str) {
+  str = str.toLowerCase()
+  return str[0].toUpperCase() + str.slice(1)
+}
+
 function moveToStr(char, move) {
   if (move) {
     if (move === "cs" || move === "c.s") move = "c.S";
@@ -29,7 +34,15 @@ function moveToStr(char, move) {
           move = val[0];
         }
       }
+      let str = move.split(' ');
+      let ar = []
+      str.forEach(s => {
+        ar.push(wordFmt(s))
+      })
+      move = ar.join(' ')
+      console.log(move)
     }
+
   }
   let moveData = framedata[char][move];
   if (!moveData) {
@@ -70,11 +83,11 @@ client.on("message", (message) => {
   if (str[0] === "sol" || str[0] === "sol badguy") {
     if (str[1] === "combos") {
     } else {
-      let tempStr = "";
+      let tempArr = [];
       for (let i = 1; i < str.length; i++) {
-        tempStr += str[i];
+        tempArr.push(str[i])
       }
-      message.channel.send(moveToStr("Sol Badguy", tempStr));
+      message.channel.send(moveToStr("Sol Badguy", tempArr.join(' ')));
     }
   }
 });
