@@ -22,11 +22,13 @@ function moveToStr(char, move) {
     else if (move === "jh" || move === "j.h") move = "jH";
     else if (move === "jd" || move === "j.d") move = "jD";
     // Character specials
-    else if (char === "Sol Badguy") {
-      if (move === "236p" || move === "gunflame")
-        move = "Gun Flame";
-    } else {
+    else {
       move = move.toUpperCase();
+      for (let val of Object.entries(framedata[char])) {
+        if (move === val[1].input) {
+          move = val[0];
+        }
+      }
     }
   }
   let moveData = framedata[char][move];
@@ -68,9 +70,9 @@ client.on("message", (message) => {
   if (str[0] === "sol" || str[0] === "sol badguy") {
     if (str[1] === "combos") {
     } else {
-      let tempStr = ''
-      for(let i = 1; i < str.length; i++) {
-        tempStr += str[i]
+      let tempStr = "";
+      for (let i = 1; i < str.length; i++) {
+        tempStr += str[i];
       }
       message.channel.send(moveToStr("Sol Badguy", tempStr));
     }
