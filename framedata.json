@@ -265,7 +265,7 @@
                         "onHit": "KD(+23)",
                         "gatlingOptions": "N/A",
                         "invuln":"1~8F Strike",
-                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic Viper",
+                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic_Viper",
                         "img": "https://www.dustloop.com/wiki/images/thumb/e/e7/GGST_Sol_623S.png/133px-GGST_Sol_623S.png"
                 },
                 "Volcanic Viper H": {
@@ -279,7 +279,7 @@
                         "onHit": "KD(+18) [HKD(+54)]",
                         "gatlingOptions": "N/A",
                         "invuln": "1~14F Strike",
-                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic Viper",
+                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic_Viper",
                         "img": "https://www.dustloop.com/wiki/images/thumb/e/e7/GGST_Sol_623S.png/133px-GGST_Sol_623S.png"
                 },
                 "Volcanic Viper j.S": {
@@ -293,7 +293,7 @@
                         "onHit": "KD",
                         "gatlingOptions": "N/A",
                         "invuln": "1~8F Strike",
-                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic Viper",
+                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic_Viper",
                         "img": "https://www.dustloop.com/wiki/images/thumb/e/e7/GGST_Sol_623S.png/133px-GGST_Sol_623S.png"
                 },
                 "Volcanic Viper j.H": {
@@ -307,7 +307,7 @@
                         "onHit": "KD[HKD]",
                         "gatlingOptions": "N/A",
                         "invuln": "1~14F Strike",
-                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic Viper",
+                        "url": "https://www.dustloop.com/wiki/index.php?title=GGST/Sol_Badguy#Volcanic_Viper",
                         "img": "https://www.dustloop.com/wiki/images/thumb/e/e7/GGST_Sol_623S.png/133px-GGST_Sol_623S.png"
                 },
                 "Bandit Revolver": {
