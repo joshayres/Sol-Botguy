@@ -31,7 +31,7 @@ function moveToStr(char, move) {
       move = move.toUpperCase();
       if (move.length > 2) {
         for (let val of Object.entries(framedata[char])) {
-          if (move === val[1].input) {
+          if (move === val[1].Input) {
             move = val[0];
           }
         }
