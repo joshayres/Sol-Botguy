@@ -109,6 +109,15 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Anji Mito", tempArr.join(" ")));
     }
+  } else if (str[0] === "axl") {
+    if (str[1] === "combos") {
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Axl Low", tempArr.join(" ")));
+    }
   } else if (str[0] === "ram") {
     if (str[1] === "combos") {
     } else {
