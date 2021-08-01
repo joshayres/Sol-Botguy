@@ -51,7 +51,6 @@ function moveToStr(char, move) {
       .setTitle("Error")
       .setDescription("Invalid Syntax for command");
   }
-  console.log(moveData);
   if (moveData.Damage === "") moveData.Damage = "-";
   if (moveData.Guard === "") moveData.Guard = "-";
   if (moveData.Startup === "") moveData.Startup = "-";
