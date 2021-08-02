@@ -420,7 +420,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Shitsu": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Shitsu.png",
 			"Name": "Shitsu",
 			"Input": "236P",
@@ -441,7 +441,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Suigetsu No Hakobi": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Hakobi.png",
 			"Name": "Suigetsu No Hakobi",
 			"Input": "236K",
@@ -462,7 +462,7 @@
 			"Invuln": "10-25~41 Guard Point",
 			"Cancel": ""
 		},
-		"Kou": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Kou.png",
 			"Name": "Kou",
 			"Input": "236S",
@@ -483,7 +483,7 @@
 			"Invuln": "1-9 Above Waist, 10-31 Upper Body [10-25 Guard Point]",
 			"Cancel": ""
 		},
-		"Fuujin": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Fuujin.png",
 			"Name": "Fuujin",
 			"Input": "236H",
@@ -504,7 +504,7 @@
 			"Invuln": "[10-25 Guard Point]",
 			"Cancel": ""
 		},
-		"Shin: Ichishiki": {
+		"236H P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Ichishiki.png",
 			"Name": "Shin: Ichishiki",
 			"Input": "236H P",
@@ -525,7 +525,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Issokutobi": {
+		"236H K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Issokutobi.png",
 			"Name": "Issokutobi",
 			"Input": "236H K",
@@ -546,7 +546,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Nagiha": {
+		"236H S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Nagiha.png",
 			"Name": "Nagiha",
 			"Input": "236H S",
@@ -567,7 +567,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Rin": {
+		"236H H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Rin.png",
 			"Name": "Rin",
 			"Input": "236H H",
@@ -588,7 +588,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Issei Ougi: Sai": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Issei_Ougi_Sai.png",
 			"Name": "Issei Ougi: Sai",
 			"Input": "632146H",
@@ -609,7 +609,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Kachoufuugetsu Kai": {
+		"632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Kachoufuugetsu.png",
 			"Name": "Kachoufuugetsu Kai",
 			"Input": "632146S",
@@ -630,7 +630,7 @@
 			"Invuln": "1-?? Guard",
 			"Cancel": ""
 		},
-		"Kachoufuugetsu Kai": {
+		"632146S Attack": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Anji_Mito_Kachoufuugetsu.png",
 			"Name": "Kachoufuugetsu Kai",
 			"Input": "632146S Attack",
@@ -1094,7 +1094,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sickle Flash": {
+		"[4]6S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Sickle_Flash.png",
 			"Name": "Sickle Flash",
 			"Input": "[4]6S",
@@ -1115,7 +1115,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Soaring Chain Strike": {
+		"[4]6S 8": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Soaring_Chain_Strike.png",
 			"Name": "Soaring Chain Strike",
 			"Input": "[4]6S 8",
@@ -1136,7 +1136,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Spinning Chain Strike": {
+		"[4]6S 2": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Spinning_Chain_Strike.png",
 			"Name": "Spinning Chain Strike",
 			"Input": "[4]6S 2",
@@ -1157,7 +1157,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Winter Cherry": {
+		"[4]6S S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Winter_Cherry.png",
 			"Name": "Winter Cherry",
 			"Input": "[4]6S S",
@@ -1178,7 +1178,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Winter Mantis": {
+		"41236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Winter_Mantis.png",
 			"Name": "Winter Mantis",
 			"Input": "41236H",
@@ -1199,7 +1199,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Rainwater": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Rainwater.png",
 			"Name": "Rainwater",
 			"Input": "214S",
@@ -1220,7 +1220,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Snail": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Snail.png",
 			"Name": "Snail",
 			"Input": "214H",
@@ -1241,7 +1241,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Snail": {
+		"j.214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Snail.png",
 			"Name": "Snail",
 			"Input": "j.214H",
@@ -1262,7 +1262,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Axl Bomber": {
+		"j.623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Axl_Bomber.png",
 			"Name": "Axl Bomber",
 			"Input": "j.623H",
@@ -1283,7 +1283,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sickle Storm": {
+		"236236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_Sickle_Storm.png",
 			"Name": "Sickle Storm",
 			"Input": "236236H",
@@ -1304,7 +1304,7 @@
 			"Invuln": "1~15F Strike",
 			"Cancel": ""
 		},
-		"One Vision": {
+		"632146P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_One_Vision_Installation.png",
 			"Name": "One Vision",
 			"Input": "632146P",
@@ -1325,7 +1325,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"One Vision": {
+		"632146P Attack": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Axl_Low_One_Vision_Activation.png",
 			"Name": "One Vision",
 			"Input": "632146P Attack",
@@ -1768,7 +1768,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -1789,7 +1789,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -1810,7 +1810,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Alpha Blade (Horizontal)": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Alpha_Blade_Horizontal_Ground.png",
 			"Name": "Alpha Blade (Horizontal)",
 			"Input": "236P",
@@ -1831,7 +1831,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Alpha Blade (Horizontal)": {
+		"j.236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Alpha_Blade_Horizontal_Air.png",
 			"Name": "Alpha Blade (Horizontal)",
 			"Input": "j.236P",
@@ -1852,7 +1852,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Alpha Blade (Diagonal)": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Alpha_Blade_Diagonal_Ground.png",
 			"Name": "Alpha Blade (Diagonal)",
 			"Input": "236K",
@@ -1873,7 +1873,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Alpha Blade (Diagonal)": {
+		"j.236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Alpha_Blade_Diagonal_Air.png",
 			"Name": "Alpha Blade (Diagonal)",
 			"Input": "j.236K",
@@ -1894,7 +1894,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Beta Blade": {
+		"623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Beta_Blade.png",
 			"Name": "Beta Blade",
 			"Input": "623S",
@@ -1915,7 +1915,7 @@
 			"Invuln": "1~8 Strike",
 			"Cancel": ""
 		},
-		"Beta Blade": {
+		"j.623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Beta_Blade.png",
 			"Name": "Beta Blade",
 			"Input": "j.623S",
@@ -1936,7 +1936,7 @@
 			"Invuln": "1~8 Strike",
 			"Cancel": ""
 		},
-		"Gamma Blade": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Gamma_Blade.png",
 			"Name": "Gamma Blade",
 			"Input": "236H",
@@ -1957,7 +1957,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Resshou": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Resshou.png",
 			"Name": "Resshou",
 			"Input": "236S",
@@ -1978,7 +1978,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Rokusai": {
+		"236S 236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Rokusai.png",
 			"Name": "Rokusai",
 			"Input": "236S 236S",
@@ -1999,7 +1999,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Senshuu": {
+		"236S 236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Senshuu.png",
 			"Name": "Senshuu",
 			"Input": "236S 236K",
@@ -2020,7 +2020,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Genrouzan": {
+		"63214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Genrou_Zan_1.png",
 			"Name": "Genrouzan",
 			"Input": "63214S",
@@ -2041,7 +2041,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Shuriken": {
+		"j.214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Shuriken.png",
 			"Name": "Shuriken",
 			"Input": "j.214P",
@@ -2062,7 +2062,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Wall Run": {
+		"6 during dash near corner": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Wall_Run.png",
 			"Name": "Wall Run",
 			"Input": "6 during dash near corner",
@@ -2083,7 +2083,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Banki Messai": {
+		"236236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Banki_Messai_1.png",
 			"Name": "Banki Messai",
 			"Input": "236236K",
@@ -2104,7 +2104,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Zansei Rouga": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Zansei_Rouga_1.png",
 			"Name": "Zansei Rouga",
 			"Input": "632146H",
@@ -2125,7 +2125,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Zansei Rouga": {
+		"j.632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Chipp_Zanuff_Zansei_Rouga_1.png",
 			"Name": "Zansei Rouga",
 			"Input": "j.632146H",
@@ -2568,7 +2568,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -2589,7 +2589,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -2610,7 +2610,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Thrust": {
+		"41236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Thrust.png",
 			"Name": "Thrust",
 			"Input": "41236K",
@@ -2631,7 +2631,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Pull Back": {
+		"41236K 4": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Pull_Back.png",
 			"Name": "Pull Back",
 			"Input": "41236K 4",
@@ -2652,7 +2652,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Home Run!": {
+		"41236K 4 H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Home_Run.png",
 			"Name": "Home Run!",
 			"Input": "41236K 4 H",
@@ -2673,7 +2673,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"What Could This Be?": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_What_Could_This_Be.png",
 			"Name": "What Could This Be?",
 			"Input": "236P",
@@ -2694,7 +2694,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mix Mix Mix": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Mix_Mix_Mix.png",
 			"Name": "Mix Mix Mix",
 			"Input": "236S",
@@ -2715,7 +2715,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mix Mix Mix": {
+		"j.236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Mix_Mix_Mix.png",
 			"Name": "Mix Mix Mix",
 			"Input": "j.236S",
@@ -2736,7 +2736,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Snip Snip Snip": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Faust_Snip_Snip_Snip.png",
 			"Name": "Snip Snip Snip",
 			"Input": "236H",
@@ -2757,7 +2757,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Love": {
+		"j.236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Love.png",
 			"Name": "Love",
 			"Input": "j.236P",
@@ -2778,7 +2778,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Scarecrow": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Scarecrow_Formation.png",
 			"Name": "Scarecrow",
 			"Input": "214P",
@@ -2799,7 +2799,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Scarecrow": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Scarecrow_Formation.png",
 			"Name": "Scarecrow",
 			"Input": "214K",
@@ -2820,7 +2820,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Scarecrow": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Scarecrow_Formation.png",
 			"Name": "Scarecrow",
 			"Input": "214S",
@@ -3030,7 +3030,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Bone-crushing Excitement": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_Bone-crushing_Excitement_2.png",
 			"Name": "Bone-crushing Excitement",
 			"Input": "632146H",
@@ -3051,7 +3051,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"W-W-What Could This Be?": {
+		"236236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_W-W-What_Could_This_Be.png",
 			"Name": "W-W-What Could This Be?",
 			"Input": "236236P",
@@ -3072,7 +3072,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"W-W-W-W-W-W-W-W-W-What Could This Be?": {
+		"236236236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Faust_W-W-What_Could_This_Be.png",
 			"Name": "W-W-W-W-W-W-W-W-W-What Could This Be?",
 			"Input": "236236236P",
@@ -3536,7 +3536,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -3557,7 +3557,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -3578,7 +3578,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Trovao": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Trovao.png",
 			"Name": "Trovao",
 			"Input": "236K",
@@ -3599,7 +3599,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sepultura": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Sepultura.png",
 			"Name": "Sepultura",
 			"Input": "214K",
@@ -3620,7 +3620,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sol Nascente": {
+		"623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Sol_Nascente.png",
 			"Name": "Sol Nascente",
 			"Input": "623S",
@@ -3641,7 +3641,7 @@
 			"Invuln": "upper body invuln 1~6 above the knees 7~9",
 			"Cancel": ""
 		},
-		"Sol Poente": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Giovanna_Sol_Poente.png",
 			"Name": "Sol Poente",
 			"Input": "214S",
@@ -3662,7 +3662,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sol Poente": {
+		"j.214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Giovanna_Sol_Poente.png",
 			"Name": "Sol Poente",
 			"Input": "j.214S",
@@ -3683,7 +3683,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ventania": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Giovanna_Ventania.png",
 			"Name": "Ventania",
 			"Input": "632146H",
@@ -3704,7 +3704,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Tempestade": {
+		"j.236236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Giovanna_Tempestade.png",
 			"Name": "Tempestade",
 			"Input": "j.236236H",
@@ -4147,7 +4147,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"41236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(426).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "41236H",
@@ -4168,7 +4168,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.41236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(426).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.41236H",
@@ -4189,7 +4189,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"63214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(624).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "63214H",
@@ -4210,7 +4210,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.63214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(624).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.63214H",
@@ -4231,7 +4231,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"23698H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(268).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "23698H",
@@ -4252,7 +4252,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.23698H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(268).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.23698H",
@@ -4273,7 +4273,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"21478H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(248).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "21478H",
@@ -4294,7 +4294,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.21478H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(248).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.21478H",
@@ -4315,7 +4315,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"69874H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(684).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "69874H",
@@ -4336,7 +4336,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.69874H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(684).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.69874H",
@@ -4357,7 +4357,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"47896H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(486).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "47896H",
@@ -4378,7 +4378,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.47896H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(486).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.47896H",
@@ -4399,7 +4399,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"87412H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(842).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "87412H",
@@ -4420,7 +4420,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.87412H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(842).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.87412H",
@@ -4441,7 +4441,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"89632H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(862).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "89632H",
@@ -4462,7 +4462,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Behemoth Typhoon": {
+		"j.89632H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Behemoth_Typhoon_(862).png",
 			"Name": "Behemoth Typhoon",
 			"Input": "j.89632H",
@@ -4483,7 +4483,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Thunderbird": {
+		"214S Level 1": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Thunderbird.png",
 			"Name": "Thunderbird",
 			"Input": "214S Level 1",
@@ -4504,7 +4504,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Thunderbird": {
+		"214S Level 2": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Thunderbird.png",
 			"Name": "Thunderbird",
 			"Input": "214S Level 2",
@@ -4525,7 +4525,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Thunderbird": {
+		"214S Level 3": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Thunderbird.png",
 			"Name": "Thunderbird",
 			"Input": "214S Level 3",
@@ -4546,7 +4546,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Skyfish": {
+		"236S Level 1": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Skyfish.png",
 			"Name": "Skyfish",
 			"Input": "236S Level 1",
@@ -4567,7 +4567,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Skyfish": {
+		"236S Level 2": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Skyfish.png",
 			"Name": "Skyfish",
 			"Input": "236S Level 2",
@@ -4588,7 +4588,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Skyfish": {
+		"236S Level 3": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Skyfish.png",
 			"Name": "Skyfish",
 			"Input": "236S Level 3",
@@ -4609,7 +4609,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Down With The System": {
+		"632146P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Goldlewis_Dickinson_Down_With_The_System.png",
 			"Name": "Down With The System",
 			"Input": "632146P",
@@ -4630,7 +4630,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Down With The System": {
+		"720P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Goldlewis_Dickinson_Down_With_The_System.png",
 			"Name": "Down With The System",
 			"Input": "720P",
@@ -4651,7 +4651,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Down With The System": {
+		"1080P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=Special:Upload&amp;wpDestFile=GGST_Goldlewis_Dickinson_Down_With_The_System.png",
 			"Name": "Down With The System",
 			"Input": "1080P",
@@ -4672,7 +4672,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Burn It Down": {
+		"236236K Level 1": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Burn_It_Down.png",
 			"Name": "Burn It Down",
 			"Input": "236236K Level 1",
@@ -4693,7 +4693,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Burn It Down": {
+		"236236K Level 2": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Burn_It_Down.png",
 			"Name": "Burn It Down",
 			"Input": "236236K Level 2",
@@ -4714,7 +4714,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Burn It Down": {
+		"236236K Level 3": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Goldlewis_Dickinson_Burn_It_Down.png",
 			"Name": "Burn It Down",
 			"Input": "236236K Level 3",
@@ -5157,7 +5157,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Stroke the Big Tree": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Stroke_the_Big_Tree.png",
 			"Name": "Stroke the Big Tree",
 			"Input": "236S",
@@ -5178,7 +5178,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Stroke the Big Tree": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Stroke_the_Big_Tree.png",
 			"Name": "Stroke the Big Tree",
 			"Input": "236H",
@@ -5199,7 +5199,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sultry Performance": {
+		"j.236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Sultry_Performance_1.png",
 			"Name": "Sultry Performance",
 			"Input": "j.236K",
@@ -5220,7 +5220,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sultry Performance": {
+		"j.236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Sultry_Performance_2.png",
 			"Name": "Sultry Performance",
 			"Input": "j.236S",
@@ -5241,7 +5241,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sultry Performance": {
+		"j.236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Sultry_Performance_3.png",
 			"Name": "Sultry Performance",
 			"Input": "j.236H",
@@ -5262,7 +5262,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Antidepressant Scale": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Antidepressant_Scale.png",
 			"Name": "Antidepressant Scale",
 			"Input": "214P",
@@ -5283,7 +5283,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Antidepressant Scale": {
+		"j.214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Antidepressant_Scale.png",
 			"Name": "Antidepressant Scale",
 			"Input": "j.214P",
@@ -5304,7 +5304,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Chemical Love": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Chemical_Love.png",
 			"Name": "Chemical Love",
 			"Input": "214K",
@@ -5325,7 +5325,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Chemical Love": {
+		"j.214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Chemical_Love.png",
 			"Name": "Chemical Love",
 			"Input": "j.214K",
@@ -5346,7 +5346,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Megalomania": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Megalomania_1.png",
 			"Name": "Megalomania",
 			"Input": "632146H",
@@ -5367,7 +5367,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ultimate Fortissimo": {
+		"632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Ultimate_Fortissimo.png",
 			"Name": "Ultimate Fortissimo",
 			"Input": "632146S",
@@ -5388,7 +5388,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ultimate Fortissimo": {
+		"j.632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_I-No_Ultimate_Fortissimo.png",
 			"Name": "Ultimate Fortissimo",
 			"Input": "j.632146S",
@@ -5810,7 +5810,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -5831,7 +5831,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -5852,7 +5852,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Stun Edge": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Stun_Edge.png",
 			"Name": "Stun Edge",
 			"Input": "236S",
@@ -5873,7 +5873,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Stun Edge": {
+		"DI 236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Stun_Edge.png",
 			"Name": "Stun Edge",
 			"Input": "DI 236S",
@@ -5894,7 +5894,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Charged Stun Edge": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_236H.png",
 			"Name": "Charged Stun Edge",
 			"Input": "236H",
@@ -5915,7 +5915,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Charged Stun Edge": {
+		"DI 236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_236H.png",
 			"Name": "Charged Stun Edge",
 			"Input": "DI 236H",
@@ -5936,7 +5936,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Aerial Stun Edge": {
+		"j.236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Aerial_Stun_Edge.png",
 			"Name": "Aerial Stun Edge",
 			"Input": "j.236S",
@@ -5957,7 +5957,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Aerial Stun Edge": {
+		"DI j.236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Aerial_Stun_Edge.png",
 			"Name": "Aerial Stun Edge",
 			"Input": "DI j.236S",
@@ -5978,7 +5978,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Aerial Stun Edge": {
+		"j.236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Aerial_Stun_Edge.png",
 			"Name": "Aerial Stun Edge",
 			"Input": "j.236H",
@@ -5999,7 +5999,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Aerial Stun Edge": {
+		"DI j.236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Aerial_Stun_Edge.png",
 			"Name": "Aerial Stun Edge",
 			"Input": "DI j.236H",
@@ -6020,7 +6020,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_S.png",
 			"Name": "Vapor Thrust",
 			"Input": "623S",
@@ -6041,7 +6041,7 @@
 			"Invuln": "Strike 1-14f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"DI 623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_S.png",
 			"Name": "Vapor Thrust",
 			"Input": "DI 623S",
@@ -6062,7 +6062,7 @@
 			"Invuln": "Strike 1-14f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_H.png",
 			"Name": "Vapor Thrust",
 			"Input": "623H",
@@ -6083,7 +6083,7 @@
 			"Invuln": "Strike 1-16f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"DI 623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_H.png",
 			"Name": "Vapor Thrust",
 			"Input": "DI 623H",
@@ -6104,7 +6104,7 @@
 			"Invuln": "Strike 1-18f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"j.623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_S.png",
 			"Name": "Vapor Thrust",
 			"Input": "j.623S",
@@ -6125,7 +6125,7 @@
 			"Invuln": "Strike 1-14f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"DI j.623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_S.png",
 			"Name": "Vapor Thrust",
 			"Input": "DI j.623S",
@@ -6146,7 +6146,7 @@
 			"Invuln": "Strike 1-14f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"j.623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_H.png",
 			"Name": "Vapor Thrust",
 			"Input": "j.623H",
@@ -6167,7 +6167,7 @@
 			"Invuln": "Strike 1-16f",
 			"Cancel": ""
 		},
-		"Vapor Thrust": {
+		"DI j.623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Vapor_Thrust_H.png",
 			"Name": "Vapor Thrust",
 			"Input": "DI j.623H",
@@ -6188,7 +6188,7 @@
 			"Invuln": "Strike 1-18f",
 			"Cancel": ""
 		},
-		"Stun Dipper": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Stun_Dipper_1.png",
 			"Name": "Stun Dipper",
 			"Input": "236K",
@@ -6209,7 +6209,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Stun Dipper": {
+		"DI 236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Stun_Dipper_1.png",
 			"Name": "Stun Dipper",
 			"Input": "DI 236K",
@@ -6230,7 +6230,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Foudre Arc": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Foudre_Arc.png",
 			"Name": "Foudre Arc",
 			"Input": "214K",
@@ -6251,7 +6251,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Foudre Arc": {
+		"DI 214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Foudre_Arc.png",
 			"Name": "Foudre Arc",
 			"Input": "DI 214K",
@@ -6272,7 +6272,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Dire Eclat": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Dire_Eclat.png",
 			"Name": "Dire Eclat",
 			"Input": "214S",
@@ -6293,7 +6293,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Dire Eclat": {
+		"DI 214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Dire_Eclat.png",
 			"Name": "Dire Eclat",
 			"Input": "DI 214S",
@@ -6314,7 +6314,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Ride the Lightning": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Ride_The_Lightning.png",
 			"Name": "Ride the Lightning",
 			"Input": "632146H",
@@ -6335,7 +6335,7 @@
 			"Invuln": "All 1-10f",
 			"Cancel": ""
 		},
-		"Ride the Lightning": {
+		"DI 632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Ride_The_Lightning.png",
 			"Name": "Ride the Lightning",
 			"Input": "DI 632146H",
@@ -6356,7 +6356,7 @@
 			"Invuln": "All 1-15f",
 			"Cancel": ""
 		},
-		"Ride the Lightning": {
+		"j.632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Ride_The_Lightning.png",
 			"Name": "Ride the Lightning",
 			"Input": "j.632146H",
@@ -6377,7 +6377,7 @@
 			"Invuln": "All 1-10f",
 			"Cancel": ""
 		},
-		"Ride the Lightning": {
+		"DI j.632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Ride_The_Lightning.png",
 			"Name": "Ride the Lightning",
 			"Input": "DI j.632146H",
@@ -6398,7 +6398,7 @@
 			"Invuln": "All 1-15f",
 			"Cancel": ""
 		},
-		"Sacred Edge": {
+		"236236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Sacred_Edge.png",
 			"Name": "Sacred Edge",
 			"Input": "236236P",
@@ -6419,7 +6419,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Sacred Edge": {
+		"DI 236236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Sacred_Edge.png",
 			"Name": "Sacred Edge",
 			"Input": "DI 236236P",
@@ -6440,7 +6440,7 @@
 			"Invuln": "none",
 			"Cancel": ""
 		},
-		"Dragon Install": {
+		"214214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ky_Kiske_Dragon_Install.png",
 			"Name": "Dragon Install",
 			"Input": "214214H",
@@ -6925,7 +6925,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Graviert Wurde": {
+		"[4]6S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Graviert_Wurde.png",
 			"Name": "Graviert Wurde",
 			"Input": "[4]6S",
@@ -6946,7 +6946,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Graviert Wurde": {
+		"[4]6H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Graviert_Wurde.png",
 			"Name": "Graviert Wurde",
 			"Input": "[4]6H",
@@ -6967,7 +6967,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Eisen Sturm": {
+		"[2]8S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Eisen_Sturm.png",
 			"Name": "Eisen Sturm",
 			"Input": "[2]8S",
@@ -6988,7 +6988,7 @@
 			"Invuln": "1-9",
 			"Cancel": ""
 		},
-		"Eisen Sturm": {
+		"[2]8H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Eisen_Sturm.png",
 			"Name": "Eisen Sturm",
 			"Input": "[2]8H",
@@ -7009,7 +7009,7 @@
 			"Invuln": "1-10",
 			"Cancel": ""
 		},
-		"Kaltes Gestöber Erst": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Kaltes_Gestober_Erst.png",
 			"Name": "Kaltes Gestöber Erst",
 			"Input": "236S",
@@ -7030,7 +7030,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Kaltes Gestöber Zweit": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Kaltes_Gestober_Zweit.png",
 			"Name": "Kaltes Gestöber Zweit",
 			"Input": "236H",
@@ -7051,7 +7051,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Turbulenz": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Turbulenz.png",
 			"Name": "Turbulenz",
 			"Input": "214S",
@@ -7156,7 +7156,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Kahn Schild": {
+		"bt.D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Kahn_Schild.png",
 			"Name": "Kahn Schild",
 			"Input": "bt.D",
@@ -7177,7 +7177,7 @@
 			"Invuln": "1-18",
 			"Cancel": ""
 		},
-		"Gländzendes Dunkel": {
+		"bt.214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Glandzendes_Dunkel.png",
 			"Name": "Gländzendes Dunkel",
 			"Input": "bt.214K",
@@ -7198,7 +7198,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Blitzschlag": {
+		"bt.214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_bt_214H.png",
 			"Name": "Blitzschlag",
 			"Input": "bt.214H",
@@ -7219,7 +7219,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Brynhildr Cancel": {
+		"bt.22": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Byrnhildr_Cancel.png",
 			"Name": "Brynhildr Cancel",
 			"Input": "bt.22",
@@ -7240,7 +7240,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Stahl Wirbel": {
+		"632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Stahl_Wirbel.png",
 			"Name": "Stahl Wirbel",
 			"Input": "632146S",
@@ -7261,7 +7261,7 @@
 			"Invuln": "1-4",
 			"Cancel": ""
 		},
-		"Liedenschaft des Dirigenten": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Leo_Whitefang_Liedenschaft_des_Dirigenten.png",
 			"Name": "Liedenschaft des Dirigenten",
 			"Input": "632146H",
@@ -7725,7 +7725,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -7746,7 +7746,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -7767,7 +7767,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mr. Dolphin Horizontal": {
+		"[4]6S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Mr._Dolphin_Horizontal.png",
 			"Name": "Mr. Dolphin Horizontal",
 			"Input": "[4]6S",
@@ -7788,7 +7788,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mr. Dolphin Horizontal": {
+		"[4]6H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Mr._Dolphin_Horizontal.png",
 			"Name": "Mr. Dolphin Horizontal",
 			"Input": "[4]6H",
@@ -7809,7 +7809,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mr. Dolphin Vertical": {
+		"[2]8S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Mr._Dolphin_Vertical.png",
 			"Name": "Mr. Dolphin Vertical",
 			"Input": "[2]8S",
@@ -7830,7 +7830,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mr. Dolphin Vertical": {
+		"[2]8H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Mr._Dolphin_Vertical.png",
 			"Name": "Mr. Dolphin Vertical",
 			"Input": "[2]8H",
@@ -7851,7 +7851,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Overhead Kiss": {
+		"623K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Overhead_Kiss_1.png",
 			"Name": "Overhead Kiss",
 			"Input": "623K",
@@ -7872,7 +7872,7 @@
 			"Invuln": "1~6F Throw",
 			"Cancel": ""
 		},
-		"Arisugawa Sparkle": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Arisugawa_Sparkle.png",
 			"Name": "Arisugawa Sparkle",
 			"Input": "214P",
@@ -7893,7 +7893,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Arisugawa Sparkle": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Arisugawa_Sparkle.png",
 			"Name": "Arisugawa Sparkle",
 			"Input": "214K",
@@ -7914,7 +7914,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Great Yamada Attack": {
+		"236236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_Great_Yamada_Attack.png",
 			"Name": "Great Yamada Attack",
 			"Input": "236236S",
@@ -7935,7 +7935,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"The Wonderful and Dynamic Goshogawara": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_The_Wonderful_and_Dynamic_Goshogawara.png",
 			"Name": "The Wonderful and Dynamic Goshogawara",
 			"Input": "632146H",
@@ -7956,7 +7956,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"The Wonderful and Dynamic Goshogawara": {
+		"j.632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_May_The_Wonderful_and_Dynamic_Goshogawara.png",
 			"Name": "The Wonderful and Dynamic Goshogawara",
 			"Input": "j.632146H",
@@ -8378,7 +8378,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -8399,7 +8399,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -8420,7 +8420,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Tandem Top": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Tandem_Top_Full.png",
 			"Name": "Tandem Top",
 			"Input": "236S",
@@ -8441,7 +8441,7 @@
 			"Invuln": "9-41F Airborne, 42-45F Below Knee",
 			"Cancel": ""
 		},
-		"Tandem Top": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Tandem_Top_Full.png",
 			"Name": "Tandem Top",
 			"Input": "236H",
@@ -8462,7 +8462,7 @@
 			"Invuln": "18F onwards Airborne",
 			"Cancel": ""
 		},
-		"Lust Shaker": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Lust_Shaker.png",
 			"Name": "Lust Shaker",
 			"Input": "214S",
@@ -8483,7 +8483,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Iron Savior": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Iron_Savior.png",
 			"Name": "Iron Savior",
 			"Input": "214P",
@@ -8504,7 +8504,7 @@
 			"Invuln": "10F onwards Airborne",
 			"Cancel": ""
 		},
-		"Bad Moon": {
+		"j.236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Bad_Moon.png",
 			"Name": "Bad Moon",
 			"Input": "j.236P",
@@ -8525,7 +8525,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Turbo Fall": {
+		"j.236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Turbo_Fall.png",
 			"Name": "Turbo Fall",
 			"Input": "j.236K",
@@ -8546,7 +8546,7 @@
 			"Invuln": "None",
 			"Cancel": ""
 		},
-		"Mirazh": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Mirazh.png",
 			"Name": "Mirazh",
 			"Input": "214K",
@@ -8567,7 +8567,7 @@
 			"Invuln": "1-4F Upper Body, 5-25F Above Knee",
 			"Cancel": ""
 		},
-		"Kapel": {
+		"j.236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Kapel.png",
 			"Name": "Kapel",
 			"Input": "j.236H",
@@ -8588,7 +8588,7 @@
 			"Invuln": "1-12F Lower Body",
 			"Cancel": ""
 		},
-		"Septem Voices": {
+		"236236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Septem_Voices.png",
 			"Name": "Septem Voices",
 			"Input": "236236S",
@@ -8609,7 +8609,7 @@
 			"Invuln": "9-26F Airborne",
 			"Cancel": ""
 		},
-		"Winger": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Millia_Rage_Winger_Full.png",
 			"Name": "Winger",
 			"Input": "632146H",
@@ -8632,7 +8632,7 @@
 		}
 	},
 	"Nagoriyuki": {
-		"Activation": {
+		"N/A": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Activation.png",
 			"Name": "Activation",
 			"Input": "N/A",
@@ -8653,7 +8653,7 @@
 			"Invuln": "1~15f Full after freeze",
 			"Cancel": ""
 		},
-		"Deactivation": {
+		"N/A": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Deactivation.png",
 			"Name": "Deactivation",
 			"Input": "N/A",
@@ -9367,7 +9367,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"6D/4D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "6D/4D",
@@ -9388,7 +9388,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -9409,7 +9409,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Zarameyuki": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Zarameyuki.png",
 			"Name": "Zarameyuki",
 			"Input": "236S",
@@ -9430,7 +9430,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Fukyo": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Fukyo.png",
 			"Name": "Fukyo",
 			"Input": "236K",
@@ -9451,7 +9451,7 @@
 			"Invuln": "1~25F Above Chest",
 			"Cancel": ""
 		},
-		"Fukyo": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Fukyo.png",
 			"Name": "Fukyo",
 			"Input": "214K",
@@ -9472,7 +9472,7 @@
 			"Invuln": "1~16F Above Chest",
 			"Cancel": ""
 		},
-		"Kamuriyuki": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Kamuriyuki.png",
 			"Name": "Kamuriyuki",
 			"Input": "214H",
@@ -9493,7 +9493,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Shizuriyuki": {
+		"623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Shizuriyuki.png",
 			"Name": "Shizuriyuki",
 			"Input": "623H",
@@ -9514,7 +9514,7 @@
 			"Invuln": "1~15F Upper Body",
 			"Cancel": ""
 		},
-		"Bloodsucking Universe": {
+		"623P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Bloodsucking_Universe.png",
 			"Name": "Bloodsucking Universe",
 			"Input": "623P",
@@ -9535,7 +9535,7 @@
 			"Invuln": "1~8F Throw",
 			"Cancel": ""
 		},
-		"Wasureyuki": {
+		"632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Wasureyuki.png",
 			"Name": "Wasureyuki",
 			"Input": "632146S",
@@ -9556,7 +9556,7 @@
 			"Invuln": "1~10F Full",
 			"Cancel": ""
 		},
-		"Zansetsu": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Nagoriyuki_Zansetsu.png",
 			"Name": "Zansetsu",
 			"Input": "632146H",
@@ -9978,7 +9978,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -9999,7 +9999,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -10020,7 +10020,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Hammer Fall": {
+		"[4]6H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Hammer_Fall.png",
 			"Name": "Hammer Fall",
 			"Input": "[4]6H",
@@ -10041,7 +10041,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Hammer Fall Break": {
+		"[4]6H P": {
 			"Images": "",
 			"Name": "Hammer Fall Break",
 			"Input": "[4]6H P",
@@ -10062,7 +10062,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Potemkin Buster": {
+		"632146P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Potemkin_Buster.png",
 			"Name": "Potemkin Buster",
 			"Input": "632146P",
@@ -10083,7 +10083,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Heat Knuckle": {
+		"623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Heat_Knuckle_1.png",
 			"Name": "Heat Knuckle",
 			"Input": "623H",
@@ -10104,7 +10104,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mega Fist": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Mega_Fist.png",
 			"Name": "Mega Fist",
 			"Input": "236P",
@@ -10125,7 +10125,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mega Fist": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Mega_Fist.png",
 			"Name": "Mega Fist",
 			"Input": "214P",
@@ -10146,7 +10146,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Slide Head": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Slide_Head.png",
 			"Name": "Slide Head",
 			"Input": "236S",
@@ -10167,7 +10167,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"F.D.B.": {
+		"63214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_FDB.png",
 			"Name": "F.D.B.",
 			"Input": "63214S",
@@ -10209,7 +10209,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Garuda Impact": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Garuda_Impact.png",
 			"Name": "Garuda Impact",
 			"Input": "214H",
@@ -10230,7 +10230,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Heavenly Potemkin Buster": {
+		"236236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Heavenly_Potemkin_Buster.png",
 			"Name": "Heavenly Potemkin Buster",
 			"Input": "236236S",
@@ -10251,7 +10251,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Giganter Kai": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Potemkin_Giganter_Kai.png",
 			"Name": "Giganter Kai",
 			"Input": "632146H",
@@ -10652,7 +10652,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -10673,7 +10673,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -10694,7 +10694,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Bajoneto": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Bajoneto_S.png",
 			"Name": "Bajoneto",
 			"Input": "236S",
@@ -10715,7 +10715,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Bajoneto": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Bajoneto_H.png",
 			"Name": "Bajoneto",
 			"Input": "236H",
@@ -10736,7 +10736,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Dauro": {
+		"623P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Dauro.png",
 			"Name": "Dauro",
 			"Input": "623P",
@@ -10757,7 +10757,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sildo Detruo": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Sildo_Detruo.png",
 			"Name": "Sildo Detruo",
 			"Input": "214K",
@@ -10778,7 +10778,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sildo Detruo": {
+		"j.214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Sildo_Detruo.png",
 			"Name": "Sildo Detruo",
 			"Input": "j.214K",
@@ -10799,7 +10799,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sabrubato": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Sabrubato.png",
 			"Name": "Sabrubato",
 			"Input": "214H",
@@ -10820,7 +10820,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Erarlumo": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Erarlumo_1.png",
 			"Name": "Erarlumo",
 			"Input": "214P",
@@ -10841,7 +10841,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Erarlumo": {
+		"214P 214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Erarlumo_2.png",
 			"Name": "Erarlumo",
 			"Input": "214P 214P",
@@ -10862,7 +10862,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Erarlumo": {
+		"214P 214P 214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Erarlumo_3.png",
 			"Name": "Erarlumo",
 			"Input": "214P 214P 214P",
@@ -10883,7 +10883,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Agressa Ordono": {
+		"j.214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Agressa_Ordono_1.png",
 			"Name": "Agressa Ordono",
 			"Input": "j.214S",
@@ -10904,7 +10904,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Calvados": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Calvados.png",
 			"Name": "Calvados",
 			"Input": "632146H",
@@ -10925,7 +10925,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Mortobato": {
+		"236236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Ramlethal_Valentine_Mortobato.png",
 			"Name": "Mortobato",
 			"Input": "236236S",
@@ -11305,7 +11305,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Sweep": {
+		"2D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_2D.png",
 			"Name": "Sweep",
 			"Input": "2D",
@@ -11326,7 +11326,7 @@
 			"Invuln": "5~24F Low Profile",
 			"Cancel": "SRP"
 		},
-		"Dust Attack": {
+		"5D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_5D.png",
 			"Name": "Dust Attack",
 			"Input": "5D",
@@ -11347,7 +11347,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -11368,7 +11368,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -11389,7 +11389,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Finish Blow": {
+		"j.XX during Homing Jump": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214K.png",
 			"Name": "Finish Blow",
 			"Input": "j.XX during Homing Jump",
@@ -11410,7 +11410,7 @@
 			"Invuln": "",
 			"Cancel": "P"
 		},
-		"Gun Flame": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_236P.png",
 			"Name": "Gun Flame",
 			"Input": "236P",
@@ -11431,7 +11431,7 @@
 			"Invuln": "",
 			"Cancel": "P"
 		},
-		"Gun Flame (Feint)": {
+		"214P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214P.png",
 			"Name": "Gun Flame (Feint)",
 			"Input": "214P",
@@ -11452,7 +11452,7 @@
 			"Invuln": "",
 			"Cancel": "P"
 		},
-		"Volcanic Viper": {
+		"623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_623S.png",
 			"Name": "Volcanic Viper",
 			"Input": "623S",
@@ -11473,7 +11473,7 @@
 			"Invuln": "1~8F Strike",
 			"Cancel": "RP"
 		},
-		"Volcanic Viper": {
+		"623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_623S.png",
 			"Name": "Volcanic Viper",
 			"Input": "623H",
@@ -11494,7 +11494,7 @@
 			"Invuln": "1~14F Strike",
 			"Cancel": "RP"
 		},
-		"Volcanic Viper": {
+		"j.623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_623S.png",
 			"Name": "Volcanic Viper",
 			"Input": "j.623S",
@@ -11515,7 +11515,7 @@
 			"Invuln": "1~8F Strike",
 			"Cancel": "RP"
 		},
-		"Volcanic Viper": {
+		"j.623H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_623S.png",
 			"Name": "Volcanic Viper",
 			"Input": "j.623H",
@@ -11536,7 +11536,7 @@
 			"Invuln": "1~14F Strike",
 			"Cancel": "RP"
 		},
-		"Bandit Revolver": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_236K.png",
 			"Name": "Bandit Revolver",
 			"Input": "236K",
@@ -11557,7 +11557,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Bandit Revolver": {
+		"j.236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_236K.png",
 			"Name": "Bandit Revolver",
 			"Input": "j.236K",
@@ -11578,7 +11578,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Bandit Bringer": {
+		"214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214K.png",
 			"Name": "Bandit Bringer",
 			"Input": "214K",
@@ -11599,7 +11599,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Bandit Bringer": {
+		"j.214K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214K.png",
 			"Name": "Bandit Bringer",
 			"Input": "j.214K",
@@ -11620,7 +11620,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Wild Throw": {
+		"623K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_623K.png",
 			"Name": "Wild Throw",
 			"Input": "623K",
@@ -11641,7 +11641,7 @@
 			"Invuln": "1~7F Throw",
 			"Cancel": "RP"
 		},
-		"Night Raid Vortex": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214S1.png",
 			"Name": "Night Raid Vortex",
 			"Input": "214S",
@@ -11662,7 +11662,7 @@
 			"Invuln": "7~14~30F [7~31F] Low Profile",
 			"Cancel": "RP"
 		},
-		"Fafnir": {
+		"41236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_41236H.png",
 			"Name": "Fafnir",
 			"Input": "41236H",
@@ -11683,7 +11683,7 @@
 			"Invuln": "",
 			"Cancel": "RP"
 		},
-		"Tyrant Rave": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_632146HS.jpg",
 			"Name": "Tyrant Rave",
 			"Input": "632146H",
@@ -11704,7 +11704,7 @@
 			"Invuln": "1~8F Full",
 			"Cancel": "RP"
 		},
-		"Heavy Mob Cemetery": {
+		"214214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Sol_214214HS.jpg",
 			"Name": "Heavy Mob Cemetery",
 			"Input": "214214H",
@@ -12126,7 +12126,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Ground Throw": {
+		"4D or 6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Ground_Throw.png",
 			"Name": "Ground Throw",
 			"Input": "4D or 6D",
@@ -12147,7 +12147,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Air Throw": {
+		"j.4D or j.6D": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Air_Throw.png",
 			"Name": "Air Throw",
 			"Input": "j.4D or j.6D",
@@ -12168,7 +12168,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Invite Hell": {
+		"22H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Invite_Hell_1.png",
 			"Name": "Invite Hell",
 			"Input": "22H",
@@ -12189,7 +12189,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Pierce": {
+		"]P[": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Pierce.png",
 			"Name": "Pierce",
 			"Input": "]P[",
@@ -12210,7 +12210,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Pierce": {
+		"236P": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Pierce.png",
 			"Name": "Pierce",
 			"Input": "236P",
@@ -12231,7 +12231,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"That's a lot": {
+		"]K[": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_That%27s_a_lot.png",
 			"Name": "That's a lot",
 			"Input": "]K[",
@@ -12252,7 +12252,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"That's a lot": {
+		"236K": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_That%27s_a_lot.png",
 			"Name": "That's a lot",
 			"Input": "236K",
@@ -12273,7 +12273,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Leap": {
+		"]S[": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Leap.png",
 			"Name": "Leap",
 			"Input": "]S[",
@@ -12294,7 +12294,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Leap": {
+		"236S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Leap.png",
 			"Name": "Leap",
 			"Input": "236S",
@@ -12315,7 +12315,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Oppose": {
+		"]H[": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Oppose_Armor.png",
 			"Name": "Oppose",
 			"Input": "]H[",
@@ -12336,7 +12336,7 @@
 			"Invuln": "8~59 Guardpoint",
 			"Cancel": ""
 		},
-		"Oppose": {
+		"236H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Oppose_Armor.png",
 			"Name": "Oppose",
 			"Input": "236H",
@@ -12357,7 +12357,7 @@
 			"Invuln": "16~67 Guardpoint",
 			"Cancel": ""
 		},
-		"Damned Fang": {
+		"623S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Damned_Fang.png",
 			"Name": "Damned Fang",
 			"Input": "623S",
@@ -12378,7 +12378,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Break The Law": {
+		"214[K]": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Break_The_Law.png",
 			"Name": "Break The Law",
 			"Input": "214[K]",
@@ -12399,7 +12399,7 @@
 			"Invuln": "13~[71] Full, 14~21~[77] Strike",
 			"Cancel": ""
 		},
-		"Drunkard Shade": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Drunkard_Shade.png",
 			"Name": "Drunkard Shade",
 			"Input": "214S",
@@ -12420,7 +12420,7 @@
 			"Invuln": "3~18 Reflect",
 			"Cancel": ""
 		},
-		"Eddie Dash": {
+		"214S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Drunkard_Shade_Dash.png",
 			"Name": "Eddie Dash",
 			"Input": "214S",
@@ -12441,7 +12441,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Summon Eddie": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Summon_Eddie.png",
 			"Name": "Summon Eddie",
 			"Input": "214H",
@@ -12462,7 +12462,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Unsummon Eddie": {
+		"214H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Summon_Eddie.png",
 			"Name": "Unsummon Eddie",
 			"Input": "214H",
@@ -12483,7 +12483,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Amorphous": {
+		"632146H": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Amorphous_1.png",
 			"Name": "Amorphous",
 			"Input": "632146H",
@@ -12504,7 +12504,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sun Void": {
+		"632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Sun_Void.png",
 			"Name": "Sun Void",
 			"Input": "632146S",
@@ -12525,7 +12525,7 @@
 			"Invuln": "",
 			"Cancel": ""
 		},
-		"Sun Void": {
+		"j.632146S": {
 			"Images": "https://www.dustloop.com/wiki/index.php?title=File:GGST_Zato-1_Sun_Void.png",
 			"Name": "Sun Void",
 			"Input": "j.632146S",
