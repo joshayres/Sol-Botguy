@@ -28,7 +28,11 @@ function moveToStr(char, move) {
     else if (move === "jd" || move === "j.d") move = "j.D";
     // Character specials
     else {
-      move = move.toUpperCase();
+      if (move[0] === "j") {
+        move = move[0] + move.slice(1).toUpperCase();
+      } else {
+        move = move.toUpperCase();
+      }
     }
   }
   let moveData = framedata[char][move];
