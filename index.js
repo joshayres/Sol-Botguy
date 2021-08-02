@@ -52,7 +52,7 @@ function moveToStr(char, move) {
     new Discord.MessageEmbed()
       .setColor("#0099ff")
       .setTitle(char + " " + moveData.Name)
-      // .setURL(moveData.url)
+      // .setURL(moveData.Images)
       .setDescription("Frame Data for " + char + " " + moveData.Name)
       .addFields(
         { name: "Damage", value: moveData.Damage, inline: true },
@@ -65,7 +65,7 @@ function moveToStr(char, move) {
         { name: "R.I.S.C. Gain", value: moveData["R.I.S.C. Gain"], inline: true }
       )
       // .addField("Gatling Options", moveData.gatlingOptions, true)
-      .setImage(moveData.Image)
+      .setImage(moveData.Images)
       .setTimestamp()
   );
 }
