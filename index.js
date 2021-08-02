@@ -29,28 +29,17 @@ function moveToStr(char, move) {
     // Character specials
     else {
       move = move.toUpperCase();
-      if (move.length > 2) {
-        for (let val of Object.entries(framedata[char])) {
-          if (move === val[1].Input) {
-            move = val[0];
-          }
-        }
-        let str = move.split(" ");
-        let ar = [];
-        str.forEach((s) => {
-          ar.push(wordFmt(s));
-        });
-        move = ar.join(" ");
-      }
     }
   }
   let moveData = framedata[char][move];
+  console.log(moveData)
   if (!moveData) {
     return new Discord.MessageEmbed()
       .setColor("#ff0022")
       .setTitle("Error")
       .setDescription("Invalid Syntax for command");
   }
+  if (moveData.Name === "") moveData.Name = move;
   if (moveData.Damage === "") moveData.Damage = "-";
   if (moveData.Guard === "") moveData.Guard = "-";
   if (moveData.Startup === "") moveData.Startup = "-";
@@ -62,9 +51,9 @@ function moveToStr(char, move) {
   return (
     new Discord.MessageEmbed()
       .setColor("#0099ff")
-      .setTitle(char + " " + move)
+      .setTitle(char + " " + moveData.Name)
       // .setURL(moveData.url)
-      .setDescription("Frame Data for " + char + " " + move)
+      .setDescription("Frame Data for " + char + " " + moveData.Name)
       .addFields(
         { name: "Damage", value: moveData.Damage, inline: true },
         { name: "Gaurd", value: moveData.Guard, inline: true },
@@ -73,7 +62,7 @@ function moveToStr(char, move) {
         { name: "Recovery", value: moveData.Recovery, inline: true },
         { name: "On Block", value: moveData["On-Block"], inline: true },
         { name: "On Hit", value: moveData["On-Hit"], inline: true },
-        { name: "R.I.S.C Gain", value: moveData["R.I.S.C. Gain"], inline: true }
+        { name: "R.I.S.C. Gain", value: moveData["R.I.S.C. Gain"], inline: true }
       )
       // .addField("Gatling Options", moveData.gatlingOptions, true)
       .setImage(moveData.Image)
