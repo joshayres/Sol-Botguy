@@ -32,7 +32,7 @@ function moveToStr(char, move) {
     }
   }
   let moveData = framedata[char][move];
-  console.log(moveData)
+  console.log(moveData);
   if (!moveData) {
     return new Discord.MessageEmbed()
       .setColor("#ff0022")
@@ -62,7 +62,11 @@ function moveToStr(char, move) {
         { name: "Recovery", value: moveData.Recovery, inline: true },
         { name: "On Block", value: moveData["On-Block"], inline: true },
         { name: "On Hit", value: moveData["On-Hit"], inline: true },
-        { name: "R.I.S.C. Gain", value: moveData["R.I.S.C. Gain"], inline: true }
+        {
+          name: "R.I.S.C. Gain",
+          value: moveData["R.I.S.C. Gain"],
+          inline: true,
+        }
       )
       // .addField("Gatling Options", moveData.gatlingOptions, true)
       .setImage(moveData.Images)
@@ -81,46 +85,66 @@ client.on("message", (message) => {
     );
   }
   if (str[0] === "sol") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "badguy") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Sol Badguy", tempArr.join(" ")));
     }
   } else if (str[0] === "anji") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "mitu") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Anji Mito", tempArr.join(" ")));
     }
   } else if (str[0] === "axl") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "low") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Axl Low", tempArr.join(" ")));
     }
-  } else if (str[0] === "ram") {
-    if (str[1] === "combos") {
+  } else if (str[0] === "ram" || str[0] === "ramlethal") {
+    let arrayVal = 1;
+    if (str[1] === "valentine") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Ramlethal Valentine", tempArr.join(" ")));
     }
   } else if (str[0] === "chipp") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "zanuff") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Chipp Zanuff", tempArr.join(" ")));
@@ -144,10 +168,14 @@ client.on("message", (message) => {
       message.channel.send(moveToStr("Giovanna", tempArr.join(" ")));
     }
   } else if (str[0] === "goldlewis") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "dickinson") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Goldlewis Dickinson", tempArr.join(" ")));
@@ -162,19 +190,27 @@ client.on("message", (message) => {
       message.channel.send(moveToStr("I-No", tempArr.join(" ")));
     }
   } else if (str[0] === "ky") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "kiske") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Ky Kiske", tempArr.join(" ")));
     }
   } else if (str[0] === "leo") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "whitefang") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Leo Whitefang", tempArr.join(" ")));
@@ -189,10 +225,14 @@ client.on("message", (message) => {
       message.channel.send(moveToStr("May", tempArr.join(" ")));
     }
   } else if (str[0] === "millia") {
-    if (str[1] === "combos") {
+    let arrayVal = 1;
+    if (str[1] === "rage") {
+      arrayVal = 2;
+    }
+    if (str[arrayVal] === "combos") {
     } else {
       let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
+      for (let i = arrayVal; i < str.length; i++) {
         tempArr.push(str[i]);
       }
       message.channel.send(moveToStr("Millia Rage", tempArr.join(" ")));
