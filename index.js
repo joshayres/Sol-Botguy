@@ -41,7 +41,7 @@ function moveToStr(char, move) {
     return new Discord.MessageEmbed()
       .setColor("#ff0022")
       .setTitle("Error")
-      .setDescription("Invalid Syntax for command");
+      .setDescription("Invalid Syntax for command, no move found for " + char + " named or inputed as " + move);
   }
   if (moveData.Name === "") moveData.Name = move;
   if (moveData.Damage === "") moveData.Damage = "-";
