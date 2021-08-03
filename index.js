@@ -133,7 +133,7 @@ function moveList(char) {
   let moves = movelist.filter((e) => e.name !== "");
   let movesObject = [];
   moves.forEach((move) => {
-    movesObject.push({ name: move.name, value: move.input });
+    movesObject.push({ name: move.name, value: move.input, inline: true });
   });
   return new Discord.MessageEmbed()
     .setColor("#0099ff")
