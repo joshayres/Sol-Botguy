@@ -13,7 +13,9 @@ const prefix = "!gg";
 const framedata = require("./framedata.json");
 
 function wordFmt(str) {
-  return str[0].toUpperCase() + str.slice(1).toLowerCase();
+  if (str) {
+    return str[0].toUpperCase() + str.slice(1).toLowerCase();
+  }
 }
 
 function findMoveAll(move) {
@@ -33,6 +35,13 @@ function findMoveAll(move) {
       if (e[1][val].Name === move) {
         let char = e[0];
         return moveToStr(char, move);
+      } else {
+        return new Discord.MessageEmbed()
+          .setColor("#ff0022")
+          .setTitle("Error")
+          .setDescription(
+            "Invalid Syntax for command, no move found for " + move
+          );
       }
     }
   }
@@ -47,7 +56,6 @@ function moveToStr(char, move) {
     else if (move === "js" || move === "j.s") move = "j.S";
     else if (move === "jh" || move === "j.h") move = "j.H";
     else if (move === "jd" || move === "j.d") move = "j.D";
-    // Character specials
     else {
       if (move[0] === "j") {
         move = move[0] + move.slice(1).toUpperCase();
@@ -97,30 +105,44 @@ function moveToStr(char, move) {
   if (moveData["On-Block"] === "") moveData["On-Block"] = "-";
   if (moveData["On-Hit"] === "") moveData["On-Hit"] = "-";
   if (moveData["R.I.S.C. Gain"] === "") moveData["R.I.S.C. Gain"] = "-";
-  return (
-    new Discord.MessageEmbed()
-      .setColor("#0099ff")
-      .setTitle(char + ": " + moveData.Name)
-      // .setURL(moveData.Images)
-      .setDescription("Frame Data for " + char + ": " + moveData.Name)
-      .addFields(
-        { name: "Damage", value: moveData.Damage, inline: true },
-        { name: "Gaurd", value: moveData.Guard, inline: true },
-        { name: "Startup", value: moveData.Startup, inline: true },
-        { name: "Active", value: moveData.Active, inline: true },
-        { name: "Recovery", value: moveData.Recovery, inline: true },
-        { name: "On Block", value: moveData["On-Block"], inline: true },
-        { name: "On Hit", value: moveData["On-Hit"], inline: true },
-        {
-          name: "R.I.S.C. Gain",
-          value: moveData["R.I.S.C. Gain"],
-          inline: true,
-        }
-      )
-      // .addField("Gatling Options", moveData.gatlingOptions, true)
-      .setImage(moveData.Images)
-      .setTimestamp()
-  );
+  return new Discord.MessageEmbed()
+    .setColor("#0099ff")
+    .setTitle(char + ": " + moveData.Name)
+    .setDescription("Frame Data for " + char + ": " + moveData.Name)
+    .addFields(
+      { name: "Input", value: moveData.Input, inline: true },
+      { name: "Damage", value: moveData.Damage, inline: true },
+      { name: "Gaurd", value: moveData.Guard, inline: true },
+      { name: "Startup", value: moveData.Startup, inline: true },
+      { name: "Active", value: moveData.Active, inline: true },
+      { name: "Recovery", value: moveData.Recovery, inline: true },
+      { name: "On Block", value: moveData["On-Block"], inline: true },
+      { name: "On Hit", value: moveData["On-Hit"], inline: true },
+      {
+        name: "R.I.S.C. Gain",
+        value: moveData["R.I.S.C. Gain"],
+        inline: true,
+      }
+    )
+    .setImage(moveData.Images)
+    .setTimestamp();
+}
+
+function moveList(char) {
+  let movelist = [];
+  for (e of Object.entries(framedata[char])) {
+    movelist.push({ name: e[1].Name, input: e[1].Input });
+  }
+  let moves = movelist.filter((e) => e.name !== "");
+  let movesObject = [];
+  moves.forEach((move) => {
+    movesObject.push({ name: move.name, value: move.input });
+  });
+  return new Discord.MessageEmbed()
+    .setColor("#0099ff")
+    .setTitle(char + " Move List")
+    .addFields(movesObject)
+    .setTimestamp();
 }
 
 client.on("message", (message) => {
@@ -139,6 +161,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Sol Badguy"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -152,6 +176,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Anji Mito"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -165,6 +191,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Axl Low"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -178,6 +206,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Ramlethal Valentine"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -191,6 +221,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Chipp Zanuff"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -200,6 +232,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "faust") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Faust"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -209,6 +243,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "gio" || str[0] === "giovanna") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Giovanna"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -227,6 +263,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Goldlewis Dickinson"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -236,6 +274,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "ino" || str[0] === "i-no") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("I-No"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -249,6 +289,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Ky Kiske"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -262,6 +304,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Leo Whitefang"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -271,6 +315,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "may") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("May"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -284,6 +330,8 @@ client.on("message", (message) => {
       arrayVal = 2;
     }
     if (str[arrayVal] === "combos") {
+    } else if (str[arrayVal] === "moves" || str[arrayVal] === "movelist") {
+      message.channel.send(moveList("Millia Rage"));
     } else {
       let tempArr = [];
       for (let i = arrayVal; i < str.length; i++) {
@@ -293,15 +341,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "nago" || str[0] === "nagoriyuki") {
     if (str[1] === "combos") {
-    } else {
-      let tempArr = [];
-      for (let i = 1; i < str.length; i++) {
-        tempArr.push(str[i]);
-      }
-      message.channel.send(moveToStr("Nagoriyuki", tempArr.join(" ")));
-    }
-  } else if (str[0] === "nago" || str[0] === "nagoriyuki") {
-    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Nagoriyuki"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -311,6 +352,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "pot" || str[0] === "potemkin") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Potemkin"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
@@ -320,6 +363,8 @@ client.on("message", (message) => {
     }
   } else if (str[0] === "zato" || str[0] === "zato-1" || str[0] === "zato=1") {
     if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Zato-1"));
     } else {
       let tempArr = [];
       for (let i = 1; i < str.length; i++) {
