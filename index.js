@@ -35,16 +35,13 @@ function findMoveAll(move) {
       if (e[1][val].Name === move) {
         let char = e[0];
         return moveToStr(char, move);
-      } else {
-        return new Discord.MessageEmbed()
-          .setColor("#ff0022")
-          .setTitle("Error")
-          .setDescription(
-            "Invalid Syntax for command, no move found for " + move
-          );
       }
     }
   }
+  return new Discord.MessageEmbed()
+    .setColor("#ff0022")
+    .setTitle("Error")
+    .setDescription("Invalid Syntax for command, no move found for " + move);
 }
 
 function moveToStr(char, move) {
