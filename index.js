@@ -13,8 +13,29 @@ const prefix = "!gg";
 const framedata = require("./framedata.json");
 
 function wordFmt(str) {
-  str = str.toLowerCase();
-  return str[0].toUpperCase() + str.slice(1);
+  return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+
+function findMoveAll(move) {
+  let moveArr = move.split(" ");
+  let strArr = [];
+  moveArr.forEach((word) => {
+    if (word === "the") {
+      strArr.push(word);
+    } else {
+      strArr.push(wordFmt(word));
+    }
+  });
+  move = strArr.join(" ");
+  console.log(move);
+  for (e of Object.entries(framedata)) {
+    for (val in e[1]) {
+      if (e[1][val].Name === move) {
+        let char = e[0];
+        return moveToStr(char, move);
+      }
+    }
+  }
 }
 
 function moveToStr(char, move) {
@@ -36,12 +57,36 @@ function moveToStr(char, move) {
     }
   }
   let moveData = framedata[char][move];
-  console.log(moveData);
   if (!moveData) {
-    return new Discord.MessageEmbed()
-      .setColor("#ff0022")
-      .setTitle("Error")
-      .setDescription("Invalid Syntax for command, no move found for " + char + " named or inputed as " + move);
+    if (char) {
+      let moveArr = move.split(" ");
+      let strArr = [];
+      moveArr.forEach((word) => {
+        if (word === "the") {
+          strArr.push(word);
+        } else {
+          strArr.push(wordFmt(word));
+        }
+      });
+      move = strArr.join(" ");
+      for (let e of Object.entries(framedata[char])) {
+        if (move === e[1].Name) {
+          moveData = framedata[char][e[0]];
+          break;
+        }
+      }
+    }
+    if (!moveData) {
+      return new Discord.MessageEmbed()
+        .setColor("#ff0022")
+        .setTitle("Error")
+        .setDescription(
+          "Invalid Syntax for command, no move found for " +
+            char +
+            " named or inputed as " +
+            move
+        );
+    }
   }
   if (moveData.Name === "") moveData.Name = move;
   if (moveData.Damage === "") moveData.Damage = "-";
@@ -55,9 +100,9 @@ function moveToStr(char, move) {
   return (
     new Discord.MessageEmbed()
       .setColor("#0099ff")
-      .setTitle(char + " " + moveData.Name)
+      .setTitle(char + ": " + moveData.Name)
       // .setURL(moveData.Images)
-      .setDescription("Frame Data for " + char + " " + moveData.Name)
+      .setDescription("Frame Data for " + char + ": " + moveData.Name)
       .addFields(
         { name: "Damage", value: moveData.Damage, inline: true },
         { name: "Gaurd", value: moveData.Guard, inline: true },
@@ -171,7 +216,12 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Giovanna", tempArr.join(" ")));
     }
-  } else if (str[0] === "goldlewis" || str[0] === "gold" || str[0] === "lewis" || str[0] === "dick") {
+  } else if (
+    str[0] === "goldlewis" ||
+    str[0] === "gold" ||
+    str[0] === "lewis" ||
+    str[0] === "dick"
+  ) {
     let arrayVal = 1;
     if (str[1] === "dickinson") {
       arrayVal = 2;
@@ -277,5 +327,11 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Zato-1", tempArr.join(" ")));
     }
+  } else if (str[0]) {
+    let tempArr = [];
+    for (let i = 0; i < str.length; i++) {
+      tempArr.push(str[i]);
+    }
+    message.channel.send(findMoveAll(tempArr.join(" ")));
   }
 });
