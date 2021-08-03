@@ -171,7 +171,7 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Giovanna", tempArr.join(" ")));
     }
-  } else if (str[0] === "goldlewis") {
+  } else if (str[0] === "goldlewis" || str[0] === "gold" || str[0] === "lewis" || str[0] === "dick") {
     let arrayVal = 1;
     if (str[1] === "dickinson") {
       arrayVal = 2;
