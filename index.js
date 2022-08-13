@@ -369,6 +369,50 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Zato-1", tempArr.join(" ")));
     }
+  } else if (str[0] == "happy" || str[0] == "hc") {
+    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Happy Chaos"));
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Happy Chaos", tempArr.join(" ")));
+    }
+  } else if (str[0] == "testament") {
+    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Testament"));
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Testament", tempArr.join(" ")));
+    }
+  } else if (str[0] == "bridget") {
+    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Bridget"));
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Bridget", tempArr.join(" ")));
+    }
+  } else if (str[0] == "baiken") {
+    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Baiken"));
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Baiken", tempArr.join(" ")));
+    }
   } else if (str[0]) {
     let tempArr = [];
     for (let i = 0; i < str.length; i++) {
