@@ -121,7 +121,7 @@ function moveToStr(char, move) {
         inline: true,
       }
     )
-    .setImage(moveData.Images)
+    .setImage(moveData.Image)
     .setTimestamp();
 }
 
