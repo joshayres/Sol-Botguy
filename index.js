@@ -413,7 +413,19 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Baiken", tempArr.join(" ")));
     }
-  } else if (str[0]) {
+  } else if (str[0] == "jacko" || str[0] == "jack-o") {
+    if (str[1] === "combos") {
+    } else if (str[1] === "moves" || str[1] === "movelist") {
+      message.channel.send(moveList("Jack-O"));
+    } else {
+      let tempArr = [];
+      for (let i = 1; i < str.length; i++) {
+        tempArr.push(str[i]);
+      }
+      message.channel.send(moveToStr("Jack-O", tempArr.join(" ")));
+    }
+  }
+  else if (str[0]) {
     let tempArr = [];
     for (let i = 0; i < str.length; i++) {
       tempArr.push(str[i]);
