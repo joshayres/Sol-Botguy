@@ -391,7 +391,7 @@ client.on("message", (message) => {
       }
       message.channel.send(moveToStr("Testament", tempArr.join(" ")));
     }
-  } else if (str[0] == "bridget") {
+  } else if (str[0] == "bridget" || str[0] == "yoyo" || str[0] == "yo-yo") {
     if (str[1] === "combos") {
     } else if (str[1] === "moves" || str[1] === "movelist") {
       message.channel.send(moveList("Bridget"));
